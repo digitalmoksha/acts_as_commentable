@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'bundler/setup'
+
+require 'bundler/gem_tasks'
 require 'rake/testtask'
 
 desc 'Test the acts_as_commentable plugin.'
